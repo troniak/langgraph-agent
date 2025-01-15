@@ -9,12 +9,26 @@ This repository contains the implementation of a **ReAct (Reasoning + Acting) ag
 - **Multi-Agent Coordination**: Includes an example of multiple agents working together to achieve shared goals.
 - **Real-World Applications**: Pre-built templates for knowledge retrieval, question answering, and decision-making tasks.
 
-## 📚 Examples
-- **Question Answering**: Use the ReAct agent to retrieve and synthesize answers from external knowledge bases.
-- **Autonomous Workflow**: Automate multi-step tasks with decision-making and action capabilities.
-- **Interactive Debugging**: Integrate ReAct agents with tools for debugging and testing complex systems.
+## 📚 Setup
 
-## 🌟 Highlights
-- Fully modular and extensible codebase
-- Optimized for both beginners and advanced users
-- Detailed documentation and example configurations included
+### Python version
+
+To get the most out of this course, please ensure you're using Python 3.11 or later. 
+This version is required for optimal compatibility with LangGraph. If you're on an older version, upgrading will ensure everything runs smoothly.
+```
+python3 --version
+```
+
+### Clone repo
+```
+$ git clone https://github.com/troniak/langgraph-agent.git
+$ cd langgraph-agent
+```
+
+### Create an environment and install dependencies
+#### Mac/Linux/WSL
+```
+$ python3 -m venv lg-env
+$ source lg-env/bin/activate
+$ pip install -r requirements.txt
+```
